@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+header {
+    height: 100px;
+    background-color: #000;
+    color: #FFF;
+}
+.header {
+    max-width: 1000px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+main {
+    text-align: center;
+}
+
+/* Imagem Logo */
+.logo {
+    width: 100px;
+}
+.logoimg {
+    width: 80px;
+    height: 80px;
+}
+
+/* Menu */
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul,
+.menu li {
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+}
+.menu li a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #000;
+}
+.menu li a:hover,
+.menu .active a {
+    border-bottom: 5px solid rgb(206, 35, 35);
+    color: #CCC;
+}
+/* Section */
+section.news {
+    padding: 10px;
+}
+section.news div,
+section.news2 div,
+section.news3 div {
+    display: flexbox;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    grid-gap: 30px;
+}
+/* Article */
+article.new{
+    align-items: center;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    padding: 8px;
+}  
+article.new img{
+    max-height: 315px;
+    display: block;
+    margin: 0 auto;
+}  
+
+/* Iframe */
+iframe{
+    border: none;
+    margin: 0;
+    height: 280px;
+    width:100%;
+    max-width: 430px;
+}
+
+/* Rodapé */
+.rodape {
+    height: 50px;
+    background-color: #000;
+}
+.conteudofinal {
+    background-color: #000;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sobre */
+.aboutme {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.sobre {
+    text-align: center;
+    font-size: 18px;
+}
+.sobre img {
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+.sobre h1 {
+    margin: 10px;
+    padding: 10px;
+}
+.sobre p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* Contato */
+.contato {
+    text-align: center;
+    padding: 30px;
+}
+.formcontato {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formcontato iframe {
+    width: 640px;
+    height: 905px;
+}
+
+/* Saiba Mais */
+.saibamais h1 {
+    margin: 10px;
+    padding: 10px;
+}
+.saibamais {
+    margin: 29px;
+    padding: 15px;
+    font-size: 18px;
+}
+.saibamais ul li {
+    margin: 10px;
+    padding: 10px;
+}
+
+
